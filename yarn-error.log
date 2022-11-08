@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\josmo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-feather
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\users\josmo\AppData\Programs\Python\Python310;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\josmo\AppData\Local\Microsoft\WindowsApps;;C:\Users\josmo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josmo\AppData\Local\Programs\Hyper\resources\bin;C:\Users\josmo\AppData\Roaming\npm;C:\Users\josmo\.fly\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\josmo\VSCProjects\portfolio\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "@example/minimal",
+    "type": "module",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "dev": "astro dev",
+      "start": "astro dev",
+      "build": "astro build",
+      "preview": "astro preview",
+      "astro": "astro"
+    },
+    "dependencies": {
+      "@astrojs/tailwind": "^2.1.2",
+      "astro": "^1.6.0",
+      "tailwindcss": "^3.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
