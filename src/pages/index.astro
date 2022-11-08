@@ -4,10 +4,25 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Neclo">
 
-	
-
-
-	
-	
 </Layout>
 
+<script>
+    function formattedDate() {
+        return new Date().toLocaleString('en-US', {
+            timeZone: 'America/New_York',
+            weekday: "long",
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            timeZoneName: 'short'
+        });
+    }
+	
+    let date = formattedDate();
+    let el = document.querySelector('#time');
+    el.innerHTML = ' ' + date;
+    setInterval(()=>{
+        date = formattedDate();
+        el.innerHTML = ' ' + date;
+    }, 1000)
+</script>
