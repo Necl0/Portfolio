@@ -6,8 +6,9 @@ Header
 Ethos 
 Import Icons
 Contact me
-
-To-do
 Projects
 live time tracker
+
+To-do
+
 
