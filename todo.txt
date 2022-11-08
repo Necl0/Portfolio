@@ -2,10 +2,12 @@ Done
 Setup project
 Add Tailwind
 Create components + layouts
+Header
+Ethos 
+Import Icons
+Contact me
 
 To-do
-Import Icons
-About me section
 projects section
 live time tracker
-Contact me
+
