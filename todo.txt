@@ -9,4 +9,3 @@ About me section
 projects section
 live time tracker
 Contact me
- Poppins font
