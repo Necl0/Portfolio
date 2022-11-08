@@ -3,6 +3,7 @@ export interface Props {
 	title?: string;
 }
 
+
 const { title } = Astro.props;
 ---
 
@@ -17,5 +18,17 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<h1>Neclo</h1>
+        <slot />
 	</body>
+    
 </html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        text-color: white;
+    }
+</style>

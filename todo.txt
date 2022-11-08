@@ -1,0 +1,12 @@
+Done
+Setup project
+Add Tailwind
+Create components + layouts
+
+To-do
+Import Icons
+About me section
+projects section
+live time tracker
+Contact me
+ Poppins font
