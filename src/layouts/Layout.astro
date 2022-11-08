@@ -3,6 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Ethos from '../components/Ethos.astro';
 import Contact from '../components/Contact.astro';
+import Skills from '../components/Skills.astro';
 import Projects from '../components/Projects.astro';
 
 export interface Props {
@@ -26,6 +27,7 @@ const { title } = Astro.props;
         <Header />
 		<Ethos />
 		<Contact />
+		<Skills />
 		<Projects />
         <Footer />
         <slot />
