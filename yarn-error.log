@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\josmo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-feather
+  C:\Program Files\nodejs\node.exe C:\Users\josmo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @fontsource/karla
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\users\josmo\AppData\Programs\Python\Python310;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\josmo\AppData\Local\Microsoft\WindowsApps;;C:\Users\josmo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josmo\AppData\Local\Programs\Hyper\resources\bin;C:\Users\josmo\AppData\Roaming\npm;C:\Users\josmo\.fly\bin;C:\Program Files\heroku\bin
@@ -31,8 +31,15 @@ npm manifest:
     },
     "dependencies": {
       "@astrojs/tailwind": "^2.1.2",
+      "@astrojs/vercel": "^2.3.3",
       "astro": "^1.6.0",
+      "prettier": "^2.7.1",
+      "prettier-plugin-astro": "^0.7.0",
+      "prettier-plugin-tailwindcss": "^0.1.13",
       "tailwindcss": "^3.2.2"
+    },
+    "devDependencies": {
+      "rome": "^10.0.0"
     }
   }
 
